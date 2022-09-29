@@ -111,3 +111,16 @@
 .ex-9-img:hover{
     transform: scale(1.5);
 }
+
+/* soluction10 */
+
+.ex-10-icon{
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+   0%{
+       transform: rotate(1turn);
+   } 
+}
+   
