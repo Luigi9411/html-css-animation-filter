@@ -1,0 +1,54 @@
+/* solution1 */
+
+.ex-1-square{
+    transition: background-color 2s;
+}
+
+.ex-1-square:hover{
+    background-color: red;
+}
+
+/* solution2 */
+
+.ex-2-square{
+        transition: width 5s ;
+}
+
+.ex-2-square:active{
+    width: 1100px;
+}
+
+/* soluction3 */
+
+.ex-3-square{
+       transition: border-radius 2s ;
+}
+
+.ex-3-square:hover{
+    border-radius: 100%;
+}
+
+/* solution4 */
+
+.ex-4-square{
+    transition: opacity 2s ;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+/* solution5 */
+
+.ex-5-square{
+    transition: transform 2s  ;
+}
+
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
